@@ -3,8 +3,8 @@
     --yellow: rgb(253,216,53);
     --blue: rgb(98,0,234);
 
-    --c1: rgb(38,70,83);
-    --c2: rgb(42,157,143);
+    --c1: #31ACBA;
+    --c2: #FFD6B2;
 
     --left-color: var(--c1);
     --right-color: var(--c2);
@@ -19,18 +19,23 @@ body {
      display: grid;
      height: 100vh;
      overflow: hidden;
-     place-items: center;
+     align-items: center;
      position: absolute;
      width: 100%;
 }
 
 .side .title {
+    font-family: "poppins",sans sans-serif;
     font-size: 8vw;
     margin: 0px 10vw;
     width: 80vw;
+    padding-left: 20%;
+    
+    
 }
 
 .side .fancy{
+    font-family:"lora", sans-serif;
     font-size: 1.3em;
     line-height: 0.3em;
 }
